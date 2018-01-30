@@ -8,7 +8,6 @@ import org.testng.annotations.Test;
 public class LanuchOnBaidu {
 	private WebDriver chromWb = null;
 
-	// private String productPath = System.getProperty("user.dir");
 	@BeforeClass
 	public void startChrome() {
 		Browsers browser = new Browsers(BrowsersType.chrome);
@@ -17,7 +16,6 @@ public class LanuchOnBaidu {
 
 	@Test
 	public void loginOnBaidu() {
-		// System.out.println();
 		chromWb.get("http://www.baidu.com");
 		chromWb.manage().window().maximize();
 		try {

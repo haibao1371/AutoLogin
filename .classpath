@@ -22,5 +22,6 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="F:/selenium_package/lib/selenium-server-standalone-2.43.1.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
